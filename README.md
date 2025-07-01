@@ -1,4 +1,12 @@
-# project_mohri_nishimura
+Antagonistic Stem Cell Fate under Stress Governs Decisions between Hair greying and Melanoma
+Stem cell senescence-differentiation under stress governs decisions between hair greying and melanoma fate
+
+<div align="center">
+
+[![Paper](https://img.shields.io/badge/Paper-Red.svg)]()&nbsp;&nbsp;
+[![Code](https://img.shields.io/badge/Project-Code-2196F3.svg)](https://github.com/seitalab/project_mohri_et_al_young_epi_vs_old_epi/)&nbsp;&nbsp;
+[![Data](https://img.shields.io/badge/Project-Data-009688.svg)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE252031)&nbsp;&nbsp;
+</div>
 
 ## Directory
 
@@ -12,17 +20,18 @@
     ├── preprocessing
     |    ├── preprocessing.ipynb
     |    └── utils.py
-    ├── fig_4b
-    ├── fig_4c
-    ├── fig_4d
-    ├── fig_ex7b
-    ├── fig_ex7c
+    ├── fig_5b
+    ├── fig_5c
+    ├── fig_5d
+    ├── fig_5e
+    ├── fig_ex8b
     ├── poetry.lock  
     ├── pyproject.toml
     ├── .gitignore  
     └── README.md  
 
-
+## Data
+The Gene Expression Omnibus (GEO) under accession code : [GSE252031](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE252031)
 
 ## Setup
 ### pyenv install (if needed)
@@ -36,14 +45,14 @@ $ source ~/.bash_profile
 
 ### code clone
 ```sh
-$ git clone git@github.com:seitalab/project_mohri_nishimura.git
+$ git clone git@github.com:seitalab/project_mohri_et_al_young_epi_vs_old_epi.git
 ```
 
 
 ### pyenv setup  
 ```sh
 $ pyenv install 3.8.5  
-$ cd ~/project_mohri_nishimura  # project directory name  
+$ cd ~/project_mohri_et_al_young_epi_vs_old_epi  # project directory name  
 $ pyenv local 3.8.5  
 ```
 

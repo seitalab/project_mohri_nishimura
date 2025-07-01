@@ -202,6 +202,23 @@ optional = false
 python-versions = ">=2.7"
 
 [[package]]
+name = "fa2"
+version = "0.3.5"
+description = "The fastest ForceAtlas2 algorithm for Python (and NetworkX)"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+numpy = "*"
+scipy = "*"
+tqdm = "*"
+
+[package.extras]
+igraph = ["python-igraph"]
+networkx = ["networkx"]
+
+[[package]]
 name = "fonttools"
 version = "4.28.3"
 description = "Tools to manipulate font files"
@@ -1389,7 +1406,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "87ff59abf61aba3409ffd2a97836889dac50cef0ab56c3376da627a440c18513"
+content-hash = "9e4a8ac11fa90aba3e6fcb7b6a48935fb3f07ae87a94b9772b724535341cdf0b"
 
 [metadata.files]
 anndata = [
@@ -1540,6 +1557,7 @@ entrypoints = [
     {file = "entrypoints-0.3-py2.py3-none-any.whl", hash = "sha256:589f874b313739ad35be6e0cd7efde2a4e9b6fea91edcc34e58ecbb8dbe56d19"},
     {file = "entrypoints-0.3.tar.gz", hash = "sha256:c70dd71abe5a8c85e55e12c19bd91ccfeec11a6e99044204511f9ed547d48451"},
 ]
+fa2 = []
 fonttools = [
     {file = "fonttools-4.28.3-py3-none-any.whl", hash = "sha256:ca6ecc67e5a5620d31754f92147f22f48fd5461fd3fafe6afe031aa9ee079b0f"},
     {file = "fonttools-4.28.3.zip", hash = "sha256:edb48922873d3fda489ab400bd40888ac239ae8070b53f494b839bcdff0d01f6"},
