@@ -72,7 +72,8 @@ $ poetry install
 
 ### setup the data
 Get the Procceded data `nishimura_scRNAseq_Yamanashi_20220407_JS_20240119.h5ad` from GEO ([GSE252031](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE252031)).
-Rename it as `normal_analysis.h5ad` and set it in the following folder.
+Rename it as `normal_analysis.h5ad` and Set up the data in the following folder.
+`data/calculated/preprocessing/normal_analysis.h5ad` 
 
 
 ### jupyter run 
@@ -82,7 +83,10 @@ $ poetry run jupyter lab
 
 
 ### preprocessing (skip if processed data exists)
-Set up the data in the following `data/base/10x_results/filtered_feature_bc_matrix` directory.
+Set up the data in the following folder.
+`data/base/10x_results/filtered_feature_bc_matrix` 
+
+
 Run `preprocessing/preprocessing.ipynb`
 
 
