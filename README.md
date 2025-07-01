@@ -3,7 +3,7 @@ Stem cell senescence-differentiation under stress governs decisions between hair
 
 <div align="center">
 
-[![Paper](https://img.shields.io/badge/Paper-Red.svg)]()&nbsp;&nbsp;
+[![Paper](https://img.shields.io/badge/Project-Paper-Red.svg)]()&nbsp;&nbsp;
 [![Code](https://img.shields.io/badge/Project-Code-2196F3.svg)](https://github.com/seitalab/project_mohri_et_al_young_epi_vs_old_epi/)&nbsp;&nbsp;
 [![Data](https://img.shields.io/badge/Project-Data-009688.svg)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE252031)&nbsp;&nbsp;
 </div>
