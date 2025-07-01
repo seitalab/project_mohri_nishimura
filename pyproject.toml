@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "project_mohri_et_al_young_epi_vs_old_epi"
+name = "project_mohri_nishimura"
 version = "0.1.0"
 description = ""
 authors = ["Takashi Yamanashi <takashi.yamanashi@riken.jp>"]

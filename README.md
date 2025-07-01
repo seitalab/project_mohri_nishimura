@@ -4,7 +4,7 @@ Stem cell senescence-differentiation under stress governs decisions between hair
 <div align="center">
 
 [![Paper](https://img.shields.io/badge/Project-Paper-Red.svg)]()&nbsp;&nbsp;
-[![Code](https://img.shields.io/badge/Project-Code-2196F3.svg)](https://github.com/seitalab/project_mohri_et_al_young_epi_vs_old_epi/)&nbsp;&nbsp;
+[![Code](https://img.shields.io/badge/Project-Code-2196F3.svg)](https://github.com/seitalab/project_mohri_nishimura/)&nbsp;&nbsp;
 [![Data](https://img.shields.io/badge/Project-Data-009688.svg)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE252031)&nbsp;&nbsp;
 </div>
 
@@ -16,7 +16,8 @@ Stem cell senescence-differentiation under stress governs decisions between hair
     |    |    └── 10x_results/filtered_feature_bc_matrix (10x's Output)
     |    | 
     |    └── calculated
-    |         └── preprocessing (preprocessing data)
+    |         └── preprocessing
+    |              └── normal_analysis.h5ad
     ├── preprocessing
     |    ├── preprocessing.ipynb
     |    └── utils.py
@@ -45,14 +46,14 @@ $ source ~/.bash_profile
 
 ### code clone
 ```sh
-$ git clone git@github.com:seitalab/project_mohri_et_al_young_epi_vs_old_epi.git
+$ git clone git@github.com:seitalab/project_mohri_nishimura.git
 ```
 
 
 ### pyenv setup  
 ```sh
 $ pyenv install 3.8.5  
-$ cd ~/project_mohri_et_al_young_epi_vs_old_epi  # project directory name  
+$ cd ~/project_mohri_nishimura  # project directory name  
 $ pyenv local 3.8.5  
 ```
 
@@ -70,7 +71,8 @@ $ poetry install
 ```  
 
 ### setup the data
-Set up the data in the following `data/base/10x_results/filtered_feature_bc_matrix` directory.
+Get the Procceded data `nishimura_scRNAseq_Yamanashi_20220407_JS_20240119.h5ad` from GEO ([GSE252031](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE252031)).
+Rename it as `normal_analysis.h5ad` and set it in the following folder.
 
 
 ### jupyter run 
@@ -79,7 +81,8 @@ $ poetry run jupyter lab
 ```
 
 
-### preprocessing 
+### preprocessing (skip if processed data exists)
+Set up the data in the following `data/base/10x_results/filtered_feature_bc_matrix` directory.
 Run `preprocessing/preprocessing.ipynb`
 
 
