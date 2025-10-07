@@ -1,9 +1,8 @@
 Antagonistic Stem Cell Fate under Stress Governs Decisions between Hair greying and Melanoma
-Stem cell senescence-differentiation under stress governs decisions between hair greying and melanoma fate
 
 <div align="center">
 
-[![Paper](https://img.shields.io/badge/Project-Paper-Red.svg)]()&nbsp;&nbsp;
+[![Paper](https://img.shields.io/badge/Project-Paper-Red.svg)](https://doi.org/10.1038/s41556-025-01769-9)&nbsp;&nbsp;
 [![Code](https://img.shields.io/badge/Project-Code-2196F3.svg)](https://github.com/seitalab/project_mohri_nishimura/)&nbsp;&nbsp;
 [![Data](https://img.shields.io/badge/Project-Data-009688.svg)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE252031)&nbsp;&nbsp;
 </div>
@@ -101,4 +100,7 @@ Setup your computer environment for package compiling
 ```sh
 $ sudo apt update gcc build-essential python3-dev libxslt-dev libffi-dev libssl-dev libxml2 libxml2-dev zlib1g-dev
 ```
+
+
+
 
